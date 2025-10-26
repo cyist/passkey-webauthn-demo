@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 自动生成的配置文件
+config.py
+cert.pem
+key.pem
+start.ps1
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.cache
+
+# 测试文件
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# 操作系统
+Thumbs.db
+Desktop.ini
