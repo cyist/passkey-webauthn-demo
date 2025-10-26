@@ -27,7 +27,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/passkey-webauthn-demo.git
+git clone https://github.com/cyist/passkey-webauthn-demo.git
 cd passkey-webauthn-demo
 ```
 
