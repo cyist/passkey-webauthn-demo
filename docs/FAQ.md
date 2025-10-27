@@ -152,8 +152,8 @@ Get-Content config.py
 ```
 
 确保:
-- 使用小写域名: `wuchengyu.local` ✅
-- 不要用大写: `WuChengyu.local` ❌
+- 使用小写域名: `yourpc.local` ✅
+- 不要用大写: `YourPC.local` ❌
 - 访问 URL 要匹配配置的 RP ID
 
 **解决:**
@@ -289,7 +289,3 @@ PORT = 8080  # 改为你想要的端口
 4. **联系社区**
    - GitHub Discussions
    - 提交 Pull Request
-
----
-
-**💡 提示:** 大多数问题都是网络配置或证书相关，请先检查这两项！

@@ -231,6 +231,11 @@ def main():
     print("🔧 Passkey 项目自动配置工具")
     print("="*60)
     
+    # 切换到脚本所在目录
+    script_dir = Path(__file__).parent.resolve()
+    os.chdir(script_dir)
+    print(f"📁 工作目录: {script_dir}\n")
+    
     # 检查依赖
     if not check_dependencies():
         print("\n❌ 配置失败: 依赖检查未通过")
